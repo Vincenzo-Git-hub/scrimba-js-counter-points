@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/dist/style.css">
+    <script src="/dist/script.js" defer></script>
+</head>
+
+<body>
+    <main class="card container flex">
+        <div class="card__col">
+            <h3 class="card__title">HOME</h3>
+            <div class="card__number" id="count-el">0</div>
+            <div class="grid-ish">
+                <button class="button" onclick="add1()">+ 1</button>
+                <button class="button" onclick="add2()">+ 2</button>
+                <button class="button" onclick="add3()">+ 3</button>
+                <button class="button" id="reset-el" onclick="reset()">RESET</button>
+            </div>
+        </div>
+        <div class="card__col">
+            <h3 class="card__title">GUEST</h3>
+            <div class="card__number" id="count-guest">0</div>
+            <div class="grid-ish">
+                <button class="button" onclick="adding1()">+ 1</button>
+                <button class="button" onclick="adding2()">+ 2</button>
+                <button class="button" onclick="adding3()">+ 3</button>
+                <button class="button" onclick="reseting()">RESET</button>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>

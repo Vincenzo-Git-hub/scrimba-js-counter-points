@@ -1,0 +1,19 @@
+@use "../util/" as *;
+
+.card {
+  background-color: var(--Dark-Blue);
+  padding: 4.375rem 5.625rem;
+
+  &__title {
+    margin-bottom: 1.3125rem;
+  }
+
+  &__number {
+    background-color: var(--Black);
+    margin-bottom: 1.625rem;
+  }
+
+  &__col {
+    max-width: 9.6875rem;
+  }
+}

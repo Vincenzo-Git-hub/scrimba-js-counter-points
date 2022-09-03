@@ -1,0 +1,31 @@
+@use "../util/" as *;
+
+html {
+  font-size: 100%;
+}
+
+body {
+  text-align: center;
+}
+
+h3 {
+  font-size: var(--fs-large);
+  color: var(--White);
+  font-family: var(--ff-title);
+}
+
+.card__number,
+.button {
+  font-family: var(--ff-number);
+}
+
+.card__number {
+  font-size: var(--fs-x-large);
+  color: var(--Light-Red);
+  border-radius: 0.5rem;
+}
+
+.button {
+  font-size: var(--fs-sm);
+  color: var(--Light-Blue);
+}
