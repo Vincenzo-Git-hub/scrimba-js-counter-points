@@ -2,7 +2,8 @@
 
 .card {
   background-color: var(--Dark-Blue);
-  padding: 4.375rem 5.625rem;
+  padding: min(10vh, 4.375rem) min(10vh, 5.625rem);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
 
   &__title {
     margin-bottom: 1.3125rem;
@@ -11,9 +12,6 @@
   &__number {
     background-color: var(--Black);
     margin-bottom: 1.625rem;
-  }
-
-  &__col {
-    max-width: 9.6875rem;
+    padding-inline: 0.5rem;
   }
 }
